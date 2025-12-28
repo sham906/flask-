@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>result</title>
+</head>
+<body>
+{% extends 'layout.html' %}
+{%block title%}هذه صفحة post{%endblock%}
+{%block content%}
+<h1><strong>هذا موقعي</strong></h1>
+<p>النص:{{text}}</p>
+<p>عدد الاحرف:{{characters}}</p>
+<p>عدد الكلمات:{{words}}</p>
+{%endblock%}
+</body>
+</html>
